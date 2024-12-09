@@ -1,0 +1,3 @@
+# JavaScript Function Handling of Null Values
+
+This repository demonstrates a common, yet subtle, error in JavaScript: unexpected behavior when a function receives a null value as an argument when it expects a number.  The function `foo` in `bug.js` adds 10 to its input. While it works correctly with numbers, passing `null` results in `NaN` (Not a Number).  The `bugSolution.js` file shows how to handle such cases more gracefully by using input validation.
